@@ -1,0 +1,92 @@
+/* style.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 900px;
+    overflow: auto;
+}
+
+h1 {
+    color: #76daff;
+    font-size: 2.5rem;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    margin: 20px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+#results {
+    margin-top: 20px;
+    overflow: auto;
+}
+
+#profitLoss {
+    font-size: 22px;
+    margin: 15px 0;
+    font-weight: bold;
+    color: #FFD700;
+}
+
+canvas {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.input-container input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 10px;
+    width: 80%;
+    max-width: 300px;
+}
+
+.input-container input:focus {
+    outline: 2px solid #76daff;
+}
+
+
+
+
+  
